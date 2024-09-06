@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container {
+    width: 67.5vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.08fr 4fr;
+    grid-template-rows: 1.05fr 5fr;
+}
+
+.dashboard {
+    background-color: blueviolet;
+    grid-area: 1/1/3/2;
+}
+
+.topbar {
+    background-color: cornflowerblue;
+}
+.main-body {
+    background-color: rgb(169, 169, 169);
+}
