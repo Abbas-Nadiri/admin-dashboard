@@ -22,4 +22,21 @@ body {
 }
 .main-body {
     background-color: rgb(169, 169, 169);
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.projects-container {
+    background-color: pink;
+    grid-area: 1/1/3/2;
+}
+
+.announcements-container {
+    background-color: chartreuse;
+}
+
+.trending-container {
+    background-color: coral;
 }
